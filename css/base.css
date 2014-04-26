@@ -22,15 +22,15 @@ body {
 }
 
 @media (min-width: 992px) {
-  .container {
-    width: 984px;
-  }
+	.container {
+	width: 984px;
+	}
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1172px;
-  }
+	.container {
+	width: 1172px;
+	}
 }
 
 .container {
@@ -139,6 +139,12 @@ body {
 	color: #fff;
 	background-color: #333;
 	box-shadow: 10px 0 0 #333, -10px 0 0 #333;
+}
+
+@media (max-width: 480px) {
+	.copy {
+	padding-left:20px;
+	}
 }
 
 .title-block {
@@ -261,6 +267,11 @@ body {
 	position : relative;
 	top : .1em;
 	padding-right:.1em;
+}
+
+@media (max-width: 480px) {
+	.slogo {
+	font-size: 85%;}
 }
 
 .footer a:link {text-decoration:none; color:#333333; }
