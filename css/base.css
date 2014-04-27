@@ -121,74 +121,8 @@ body {
 }
 
 .copy {
+	margin-top:5px;
 	padding-left:5%;
-}
-
-.copy2 {
-	padding-left:5%;
-}
-
-@media (min-width: 768px) {
-.copy2 {
-	padding-left:20px;
-	}
-}
-
-.company {
-	font-size:1.5em;
-	line-height: 1.1em;
-	color: #333;
-	margin-left:-3px;
-}
-
-.title {
-	font-size:2.75em;
-	line-height: 1.3em;
-	font-weight:400;
-	color: #fff;
-	padding-top:5px;
-	padding-bottom:5px;
-	background-color: #333;
-	box-shadow: 10px 0 0 #333, -10px 0 0 #333;
-}
-
-@media (max-width: 1000px) {
-.title {
-	font-size:2.25em;
-	line-height: 1.3em;
-	font-weight:400;
-	color: #fff;
-	padding-top:5px;
-	padding-bottom:5px;
-	background-color: #333;
-	box-shadow: 10px 0 0 #333, -10px 0 0 #333;
-}
-}
-
-@media (max-width: 768px) {
-.title {
-	font-size:2.5em;
-	line-height: 1.3em;
-	font-weight:400;
-	color: #fff;
-	padding-top:5px;
-	padding-bottom:5px;
-	background-color: #333;
-	box-shadow: 10px 0 0 #333, -10px 0 0 #333;
-}
-}
-
-@media (max-width: 480px) {
-.title {
-	font-size:1.5em;
-	line-height: 1.3em;
-	font-weight:400;
-	color: #fff;
-	padding-top:5px;
-	padding-bottom:5px;
-	background-color: #333;
-	box-shadow: 10px 0 0 #333, -10px 0 0 #333;
-}
 }
 
 @media (max-width: 480px) {
@@ -197,15 +131,66 @@ body {
 	}
 }
 
+.copy2 {
+	padding-left:5%;
+}
+
+@media (min-width: 768px) {
+.copy2 {
+	padding-left:17px;
+	}
+}
+
+.company {
+	font-size:1.3em;
+	line-height: 1.1em;
+	color: #333;
+	margin-left:-3px;
+}
+
+.title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:2.75em;
+	line-height: 1.0em;
+	font-weight:200;
+	color: #333;
+}
+
+@media (max-width: 1000px) {
+.title {
+	font-size:2.25em;
+	line-height: 1.3em;
+	font-weight:200;
+	color: #333;
+}
+}
+
+@media (max-width: 768px) {
+.title {
+	font-size:2.5em;
+	line-height: 1.3em;
+	font-weight:200;
+	color: #333;
+}
+}
+
+@media (max-width: 480px) {
+.title {
+	font-size:1.5em;
+	line-height: 1.3em;
+	font-weight:400;
+	color: #333;
+}
+}
+
 .title-block {
-	padding-top:10px;
+	padding-top:5px;
 	padding-bottom:20px;
 	margin-left: -3px;
 }
 
 .subtitle {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:1.15em;
+ v	font-size:1.15em;
 	line-height: 1.1em;
 	color: #333;
 	margin-left: -3px;
@@ -219,7 +204,6 @@ body {
 	line-height: 1.6em;
 	padding-top: 3px;
 	padding-right:30px;
-	margin-left:-3px;
 	margin-bottom:-5px;
 }
 
