@@ -114,7 +114,7 @@ body {
 
 .hero img {
 	width:100%;
-	/*max-width: 950px; Add this back in to constrain the width of the image */
+	max-width: 930px; /* Add this back in to constrain the width of the image */
 	padding-bottom: 10px;
 }
 
