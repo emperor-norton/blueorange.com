@@ -19,6 +19,7 @@ p {
 
 body {
 	background-color: #f6f6f6;
+	font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", "Roboto", sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -39,6 +40,14 @@ body {
 	margin-bottom:20px;
 }
 
+@media (max-width: 768px) {
+	.container {
+	margin-top:0px;
+	margin-bottom:20px;
+	}
+}
+
+
 .nopadding {
 	padding: 0;
 	margin: 0;
@@ -46,8 +55,8 @@ body {
 }
 
 .tiles {
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .caption {
@@ -100,7 +109,7 @@ body {
 
 .hero img {
 	width:100%;
-	max-width: 930px;
+	max-width: 950px;
 	padding-bottom: 10px;
 }
 
@@ -141,15 +150,19 @@ body {
 	}
 }
 
+@media (max-width: 480px) {
+.copy2 {
+	padding-left:20px;
+	}
+}
+
 .company {
 	font-size:1.3em;
 	line-height: 1.1em;
 	color: #333;
-	margin-left:-3px;
 }
 
 .title {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:2.75em;
 	line-height: 1.0em;
 	font-weight:200;
@@ -159,26 +172,17 @@ body {
 @media (max-width: 1000px) {
 .title {
 	font-size:2.25em;
-	line-height: 1.3em;
+	line-height: 1.0em;
 	font-weight:200;
 	color: #333;
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 .title {
-	font-size:2.5em;
-	line-height: 1.3em;
+	font-size:2.75em;
+	line-height: 1.0em;
 	font-weight:200;
-	color: #333;
-}
-}
-
-@media (max-width: 480px) {
-.title {
-	font-size:1.5em;
-	line-height: 1.3em;
-	font-weight:400;
 	color: #333;
 }
 }
@@ -190,7 +194,7 @@ body {
 }
 
 .subtitle {
- v	font-size:1.15em;
+	font-size:1.15em;
 	line-height: 1.1em;
 	color: #333;
 	margin-left: -3px;
@@ -249,8 +253,8 @@ body {
 
 .divider {
 	height:10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
@@ -279,7 +283,6 @@ body {
 .footer {
 	font-size:1.15em;
 	line-height: 1.5em;
-	margin-left:-5px;
 	padding:0px;
 }
 
