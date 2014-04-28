@@ -57,6 +57,14 @@ body {
 	}
 }
 
+@media (width: 768px) {
+	.container {
+	margin-top:0px;
+	margin-bottom:20px;
+	width:768px;
+	}
+}
+
 .nopadding {
 	padding: 0;
 	margin: 0;
