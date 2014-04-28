@@ -95,11 +95,28 @@ body {
 	padding-top: 10px;
 }
 
+.on {
+	opacity: .3;
+}
+
+.overlay img:hover {
+	visibility: visible;
+	opacity:0.3;
+	filter:alpha(opacity=30);  v
+	text-decoration: none;
+}
+
 /*   portfolio images stuff   */
 
 .hero img {
 	width: 100%;
 	height:auto;
+}
+
+.five { /*   this is here to space out the travel iphone images   */
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 15px;
 }
 
 .work {
@@ -109,24 +126,8 @@ body {
 
 .work img {
 	width:100%;
-	max-width: 930px; /* Add this back in to constrain the width of the image */
+	max-width: 930px;
 	padding-bottom: 10px;
-}
-
-.on {
-	opacity: .3;
-}
-
-.overlay img:hover {
-	visibility: visible;
-	opacity:0.3;
-	filter:alpha(opacity=30); /* For IE8 and earlier */
-	text-decoration: none;
-}
-
-.masthead {
-	padding-top:70px;
-	margin-bottom:70px;
 }
 
 .copy {
@@ -273,6 +274,8 @@ body {
 	padding: 0px;
 }
 
+
+/*   header, foot, and logo stuff   */
 .header {
 	font-family: 'texgyreadventorbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:2em;
