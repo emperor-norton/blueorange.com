@@ -11,8 +11,8 @@
 
 
 /*   baseline stuff   */
-a {text-decoration: none;}
-a:hover {text-decoration: none;}
+a {text-decoration:none;}
+a:hover {text-decoration:none;}
 
 p {
 	margin:0px;
@@ -20,44 +20,46 @@ p {
 }
 
 body {
-	background-color: #f6f6f6;
-	font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", "Roboto", sans-serif;
+	background-color:#f6f6f6;
+	font-family:"Segoe UI", "Segoe WP", "Helvetica Neue", "Roboto", sans-serif;
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
 	.container {
-	width: 984px;
+	width:984px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width:1200px) {
 	.container {
-	width: 1172px;
+	width:1172px;
 	}
 }
 
 .container {
-	background-color: #ffffff;
+	background-color:#ffffff;
 	margin-top:15px;
 	margin-bottom:20px;
+	padding-top:5px;
 }
 
-@media (max-width: 769px) {
+@media (max-width:769px) {
 	.container {
 	margin-top:0px;
 	margin-bottom:20px;
 	}
 }
 
-@media (width: 1024px) {
+@media (width:1024px) {
 	.container {
 	margin-top:0px;
 	margin-bottom:20px;
 	width:1024px;
+	padding-top:10px;
 	}
 }
 
-@media (width: 768px) {
+@media (width:768px) {
 	.container {
 	margin-top:0px;
 	margin-bottom:20px;
@@ -66,31 +68,31 @@ body {
 }
 
 .nopadding {
-	padding: 0;
-	margin: 0;
+	padding:0;
+	margin:0;
 	/*border:1px solid #ffffff;*/
 }
 
 
 /*   portfolio navigation stuff   */
 .tiles {
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right:10px;
+	padding-left:10px;
 }
 
 .caption {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	color: #000;
-	font-size: 1em;
-	line-height: 1em;
-	padding-top: 10px;
-	padding-left: 10px;
-	text-align: left;
-	height: 2em;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	color:#000;
+	font-size:1em;
+	line-height:1em;
+	padding-top:10px;
+	padding-left:10px;
+	text-align:left;
+	height:2em;
 }
 
 .caption span {
@@ -239,30 +241,30 @@ body {
 
 .spacerb {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom:20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
 .spacer {
-	margin-top: 20px;
-	margin-bottom: 20px;}
+	margin-top:20px;
+	margin-bottom:20px;}
 
 .spacerb {
-	margin-top: 5px;
-	margin-bottom: 5px;}
+	margin-top:5px;
+	margin-bottom:5px;}
 }
 
-@media (max-width: 480px) {
+@media (max-width:480px) {
 .spacer {
-	margin-top: 15px;
-	margin-bottom: 15px;}
+	margin-top:15px;
+	margin-bottom:15px;}
 
 .spacerb {
-	margin-top: 0px;
-	margin-bottom: 0px;}
+	margin-top:0px;
+	margin-bottom:0px;}
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
 .spacerx {
 	display:none;
 }
@@ -270,43 +272,38 @@ body {
 
 .divider {
 	height:10px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-top: 25px;
-	margin-bottom: 15px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top:25px;
+	margin-bottom:15px;
 }
 
 .zinset {
 	height:1px;
-	background-color: #ccc;
-	margin: 0px;
-	padding: 0px;
+	background-color:#ccc;
+	margin:0px;
+	padding:0px;
 }
 
 .inset {
 	height:5px;
-	background-color: #f6f6f6;
-	margin: 0px;
-	padding: 0px;
+	background-color:#f6f6f6;
+	margin:0px;
+	padding:0px;
+	display:none;
 }
 
 
 /*   header, foot, and logo stuff   */
 .header {
-	font-family: 'texgyreadventorbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:2em;
-	line-height: 1.1em;
-	margin-left:-5px;
-}
-
-.footer {
-	font-size:1.15em;
-	line-height: 1.5em;
-	padding:0px;
+	font-family:'texgyreadventorbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.25em;
+	line-height:1.1em;
+	margin-left:-22px;
 }
 
 .icon {
-	font-family: 'icomoon';
+	font-family:'icomoon';
 }
 
 .blue {
@@ -322,33 +319,23 @@ body {
 	padding-bottom:-25px;
 	position : relative;
 	top : .1em;
-	padding-right:.1em;
-	padding-left:5px;
-}
-
-@media (max-width: 480px) {
-	.logo {
-	font-size:1.5em;
-	padding-bottom:-25px;
-	position : relative;
-	top : 0em;
 	padding-right:.2em;
 }
+
+.footer {
+	font-size:1.15em;
+	line-height:1.5em;
+	padding:0px;
 }
 
-@media (max-width: 480px) {
-	.slogo {
-	font-size: 85%;}
-}
-
-.footer a:link {text-decoration:none; color:#333333; }
-.footer a:visited {text-decoration:none; color:#333333; }
-.footer a:hover {text-decoration:none; color:#3399ff; }
-.footer a:active {text-decoration:none; color:#ffcc33; }
+.footer a:link {text-decoration:none; color:#333333;}
+.footer a:visited {text-decoration:none; color:#333333;}
+.footer a:hover {text-decoration:none; color:#3399ff;}
+.footer a:active {text-decoration:none; color:#ffcc33;}
 
 .shift {
 	position : relative;
-	top: -.10em;
+	top: -.075em;
 	margin-left:0px;
 }
 
@@ -362,28 +349,31 @@ body {
 
 .hello {
 	font-size:2.75em;
-	line-height: 1.1em;
-	color: #333;
-	font-weight:200; 
+	line-height:1.1em;
+	color:#333;
+	font-weight:500; 
 	padding-top:0px;
+	margin-left:3px;
 }
 
 @media (max-width: 480px) {
 .hello {
-	font-size:2.25em;
-	line-height: 1.1em;
+	font-size:1.75em;
+	line-height:1.1em;
 	color: #333;
-	font-weight:200; 
+	font-weight:500; 
 	padding-top:0px;
 	margin-top:-15px;
+	margin-left:3px;
 }
 }
 
 .intro {
 	color: #333333;
-	font-size: 1.2em;
-	line-height: 1.6em;
-	padding-top: 20px;
+	font-size:1.15em;
+	line-height:1.6em;
+	padding-top:30px;
 	padding-right:30px;
 	margin-bottom:-5px;
+	margin-left:3px;
 }
