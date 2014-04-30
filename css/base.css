@@ -38,7 +38,6 @@ body {
 
 .container {
 	background-color:#ffffff;
-	margin-top:15px;
 	margin-bottom:20px;
 	padding-top:5px;
 }
@@ -299,7 +298,8 @@ body {
 	font-family:'texgyreadventorbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1.25em;
 	line-height:1.1em;
-	margin-left:-22px;
+	margin-left:-2px;
+	margin-top:-10px;
 }
 
 .icon {
