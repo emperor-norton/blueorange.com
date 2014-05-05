@@ -136,6 +136,34 @@ body {
 	padding-bottom: 15px;
 }
 
+.ten { /*   this is here to space out the autos s4 images   */
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.narrow { /*   this is here to space in the autos s4 images   */
+	padding-right:110px;
+	padding-left:110px;
+	padding-bottom:20px;
+}
+
+@media (max-width:1200px) {
+.narrow { /*   this is here to space in the autos s4 images   */
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+}
+}
+
+@media (max-width:1024px) {
+.narrow { /*   this is here to space in the autos s4 images   */
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:20px;
+}
+}
+
+
 .work {
 	background-color: #ececec;
 	text-align: center;
