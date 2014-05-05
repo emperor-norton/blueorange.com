@@ -348,32 +348,47 @@ body {
 /*   index specific stuff   */
 
 .hello {
-	font-size:2.75em;
-	line-height:1.1em;
-	color:#333;
-	font-weight:200; 
+	font-family:'texgyreadventorbold', "Segoe UI", "Segoe WP", "Helvetica Neue", "Roboto", sans-serif;
+	font-size:5em;
+	line-height:.8em;
+	color:#000;
 	padding-top:0px;
 	margin-left:3px;
+}
+
+@media (max-width: 1024px) {
+	.hello {
+	font-size:5em;
+	}
+}
+
+@media (max-width: 600px) {
+	.hello {
+	font-size:4.5em;
+	}
 }
 
 @media (max-width: 480px) {
-.hello {
-	font-size:1.75em;
-	line-height:1.1em;
-	color: #333;
-	font-weight:500; 
-	padding-top:0px;
-	margin-top:-15px;
-	margin-left:3px;
-}
+	.hello {
+	font-size:3.75em;
+	}
 }
 
+
+@media (max-width: 400px) {
+	.hello {
+	font-size:2.75em;
+	}
+}
+
+
 .intro {
-	color: #333333;
+	color: #333;
 	font-size:1.15em;
 	line-height:1.6em;
 	padding-top:30px;
 	padding-right:30px;
 	margin-bottom:-5px;
 	margin-left:3px;
+	font-weight:200px;
 }
