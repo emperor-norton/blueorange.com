@@ -98,7 +98,7 @@ body {
 	color: #2b2b2b;
 	height: 2em;
 	background-color: #fff;
-	line-height: 1.4em;
+	line-height: 1.5em;
 	padding-top:3px;
 	padding-bottom:3px;
 	box-shadow: 5px 0 0 #fff, -5px 0 0 #fff;
@@ -137,8 +137,8 @@ body {
 }
 
 .ten { /*   this is here to space out the autos s4 images   */
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .narrow { /*   this is here to space in the autos s4 images   */
@@ -171,28 +171,15 @@ body {
 
 .work img {
 	width:100%;
-	max-width: 930px;
 	padding-bottom: 10px;
 }
 
 .copy {
 	margin-top:5px;
-	padding-left:5%;
 }
 
 @media (max-width: 480px) { /*   this changes how the description displays when stacked   */
 	.copy {
-	padding-left:20px;
-	}
-}
-
-.copy2 {
-	padding-left:5%;
-}
-
-@media (min-width: 768px) { /*   this changes how the description displays when stacked   */
-.copy2 {
-	padding-left:17px;
 	}
 }
 
@@ -267,8 +254,8 @@ body {
 }
 
 .spacerb {
-	margin-top: 20px;
-	margin-bottom:20px;
+	margin-top: 10px;
+	margin-bottom:10px;
 }
 
 @media (max-width:768px) {
@@ -419,4 +406,36 @@ body {
 	margin-bottom:-5px;
 	margin-left:3px;
 	font-weight:200px;
+}
+
+.whitespace {
+	padding-left:40px;
+	padding-right:40px;
+	}
+	
+.tiles {
+	padding-left:48px;
+	padding-right:48px;
+	}
+
+@media (max-width: 768px) {
+	.whitespace {
+	padding-left:20px;
+	padding-right:20px;
+	}
+	.tiles {
+	padding-left:29px;
+	padding-right:29px;
+	}
+}
+
+@media (max-width: 480px) {
+	.whitespace {
+	padding-left:0px;
+	padding-right:0px;
+	}
+	.tiles {
+	padding-left:10px;
+	padding-right:10px;
+	}
 }
