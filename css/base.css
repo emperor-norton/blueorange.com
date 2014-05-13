@@ -87,11 +87,12 @@ body {
 	right:0;
 	color:#000;
 	font-size:1em;
-	line-height:1em;
-	padding-top:10px;
-	padding-left:10px;
+	line-height:1.45em;
+	padding-top:9px;
+	padding-left:9px;
 	text-align:left;
 	height:2em;
+	font-weight:500;
 }
 
 .caption span {
@@ -110,6 +111,33 @@ body {
 	padding-right: 5px;
 	padding-left: 5px;
 	padding-top: 10px;
+}
+
+@media (max-width:480px) {
+	.caption {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	color:#000;
+	font-size:1em;
+	line-height:1em;
+	padding-top:3px;
+	padding-left:5px;
+	text-align:left;
+	height:2em;
+	}
+}
+
+@media (max-width:480px) {
+	.imgWrap img {
+	width: 100%;
+	height:auto;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-top: 2px;
+	}
 }
 
 .on {
@@ -137,8 +165,8 @@ body {
 }
 
 .ten { /*   this is here to space out the autos s4 images   */
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 14px;
+	padding-left: 14px;
 }
 
 .narrow { /*   this is here to space in the autos s4 images   */
@@ -179,13 +207,12 @@ body {
 }
 
 @media (max-width: 480px) { /*   this changes how the description displays when stacked   */
-	.copy {
-	}
-}
-
-@media (max-width: 480px) { /*   this changes how the description displays when stacked   */
 .copy2 {
-	padding-left:20px;
+	padding-left:15px;
+	}
+	
+.copy {
+	padding-left:15px;
 	}
 }
 
@@ -362,12 +389,13 @@ body {
 /*   index specific stuff   */
 
 .hello {
-	font-family:'texgyreadventorbold', "Segoe UI", "Segoe WP", "Helvetica Neue", "Roboto", sans-serif;
+	font-family: 'texgyreadventorbold', "Segoe UI", "Segoe WP", "Helvetica Neue", "Roboto", sans-serif;
 	font-size:5em;
 	line-height:.8em;
 	color:#000;
 	padding-top:0px;
 	margin-left:3px;
+	font-weight:400;
 }
 
 @media (max-width: 1024px) {
@@ -398,33 +426,33 @@ body {
 
 .intro {
 	color: #333;
-	font-size:1.15em;
+	font-size:1.25em;
 	line-height:1.6em;
 	padding-top:30px;
 	padding-right:30px;
 	margin-bottom:-5px;
 	margin-left:3px;
-	font-weight:200px;
+	font-weight:400;
 }
 
 .whitespace {
-	padding-left:40px;
-	padding-right:40px;
+	padding-left:30px;
+	padding-right:30px;
 	}
 	
 .tiles {
-	padding-left:48px;
-	padding-right:48px;
+	padding-left:38px;
+	padding-right:38px;
 	}
 
 @media (max-width: 768px) {
 	.whitespace {
-	padding-left:20px;
-	padding-right:20px;
+	padding-left:15px;
+	padding-right:15px;
 	}
 	.tiles {
-	padding-left:29px;
-	padding-right:29px;
+	padding-left:24px;
+	padding-right:24px;
 	}
 }
 
@@ -434,7 +462,7 @@ body {
 	padding-right:0px;
 	}
 	.tiles {
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:13px;
+	padding-right:13px;
 	}
 }
