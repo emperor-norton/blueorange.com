@@ -96,6 +96,24 @@ body {
 	font-weight:500;
 }
 
+@media (max-width:480px) {
+	.caption {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	color:#000;
+	font-size:45%;
+	line-height:2em;
+	padding-top:14px;
+	padding-left:15px;
+	text-align:left;
+	height:2em;
+	font-weight:500;
+	}
+}
+
 .caption span {
 	color: #2b2b2b;
 	height: 2em;
@@ -209,7 +227,7 @@ body {
 .title {
 	font-size:2.75em;
 	line-height: 1.0em;
-	font-weight:200;
+	font-weight:300;
 	color: #333;
 }
 
@@ -217,8 +235,9 @@ body {
 .title {
 	font-size:2.25em;
 	line-height: 1.0em;
-	font-weight:200;
 	color: #333;
+	font-weight:300;
+
 }
 }
 
@@ -226,8 +245,18 @@ body {
 .title {
 	font-size:2.75em;
 	line-height: 1.0em;
-	font-weight:200;
 	color: #333;
+	font-weight:300;
+
+}
+}
+
+@media (max-width: 480px) {
+.title {
+	font-size:2em;
+	line-height: 1.0em;
+	color: #333;
+	font-weight:300;
 }
 }
 
@@ -423,8 +452,8 @@ body {
 	}
 	
 .tiles {
-	padding-left:43px;
-	padding-right:43px;
+	padding-left:45px;
+	padding-right:45px;
 	}
 
 @media (max-width: 768px) {
@@ -433,8 +462,8 @@ body {
 	padding-right:15px;
 	}
 	.tiles {
-	padding-left:24px;
-	padding-right:24px;
+	padding-left:30px;
+	padding-right:30px;
 	}
 }
 
@@ -443,8 +472,12 @@ body {
 	padding-left:0px;
 	padding-right:0px;
 	}
+	.whitespace2 {
+	padding-left:10px;
+	padding-right:10px;
+	}
 	.tiles {
-	padding-left:13px;
-	padding-right:13px;
+	padding-left:15px;
+	padding-right:15px;
 	}
 }
