@@ -77,8 +77,6 @@ body {
 .tiles {
 	padding-right:10px;
 	padding-left:10px;
-	padding-top:5px;
-    height:200px;
 }
 
 .caption {
@@ -88,11 +86,12 @@ body {
 	left:0;
 	right:0;
 	color:#000;
-	font-size:65%;
+	font-size:1em;
 	line-height:1.45em;
-	padding-top:13px;
-	padding-left:14px;
+	padding-top:3px;
+	padding-left:4px;
 	text-align:left;
+	height:2em;
 	font-weight:500;
 }
 
@@ -109,9 +108,9 @@ body {
 .imgWrap img {
 	width: 100%;
 	height:auto;
-	padding-right: 0px;
+	padding-right: 1px;
 	padding-left: 0px;
-	padding-top: 0px;
+	padding-top: 1px;
 }
 
 @media (max-width:480px) {
@@ -358,7 +357,6 @@ body {
 .footer {
 	font-size:1.15em;
 	line-height:1.5em;
-	margin-top:20px;
 	padding:0px;
 }
 
@@ -386,6 +384,7 @@ body {
 	line-height:.8em;
 	color:#000;
 	padding-top:0px;
+	margin-left:3px;
 	font-weight:400;
 }
 
@@ -422,6 +421,7 @@ body {
 	padding-top:50px;
 	padding-right:30px;
 	margin-bottom:-5px;
+	margin-left:3px;
 	font-weight:400;
 }
 
@@ -441,8 +441,8 @@ body {
 	padding-right:15px;
 	}
 	.tiles {
-	padding-left:29px;
-	padding-right:29px;
+	padding-left:24px;
+	padding-right:24px;
 	}
 }
 
