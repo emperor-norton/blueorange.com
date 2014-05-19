@@ -88,11 +88,12 @@ body {
 	color:#000;
 	font-size:1em;
 	line-height:1.45em;
-	padding-top:9px;
-	padding-left:9px;
+	padding-top:11px;
+	padding-left:10px;
 	text-align:left;
 	height:2em;
 	font-weight:500;
+	opacity:.75;
 }
 
 .caption span {
@@ -394,7 +395,7 @@ body {
 	line-height:.8em;
 	color:#000;
 	padding-top:0px;
-	margin-left:3px;
+	margin-left:0px;
 	font-weight:400;
 }
 
@@ -431,7 +432,7 @@ body {
 	padding-top:50px;
 	padding-right:30px;
 	margin-bottom:-5px;
-	margin-left:3px;
+	margin-left:0px;
 	font-weight:400;
 }
 
