@@ -87,9 +87,9 @@ body {
 	left:0;
 	right:0;
 	color:#000;
-	font-size:60%;
+	font-size:55%;
 	line-height:2em;
-	padding-top:14px;
+	padding-top:10px;
 	padding-left:15px;
 	text-align:left;
 	height:2em;
@@ -110,7 +110,7 @@ body {
 	padding-left:15px;
 	text-align:left;
 	height:2em;
-	font-weight:500;
+	font-weight:400;
 	}
 }
 
@@ -273,6 +273,12 @@ body {
 	margin-left: -3px;
 	padding-top:3px;
 	visibility:hidden;
+}
+
+.caption .company {
+	font-size:1.6em;
+	line-height: 1.8em;
+	font-weight:400;
 }
 
 .description {
