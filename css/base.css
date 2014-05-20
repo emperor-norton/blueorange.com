@@ -86,14 +86,19 @@ body {
 	left:0;
 	right:0;
 	color:#000;
-	font-size:1em;
-	line-height:1.45em;
-	padding-top:11px;
+	font-size:55%;
+	line-height:2em;
+	padding-top:13px;
 	padding-left:10px;
 	text-align:left;
 	height:2em;
-	font-weight:500;
+	font-weight:400;
 	opacity:.75;
+}
+
+.caption .company {
+	font-size:150%;
+	font-weight: 400;
 }
 
 .caption span {
@@ -138,6 +143,25 @@ body {
 	padding-right: 1px;
 	padding-left: 1px;
 	padding-top: 2px;
+	}
+}
+
+@media (max-width:480px) {
+	.caption {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	color:#000;
+	font-size:45%;
+	line-height:2em;
+	padding-top:4px;
+	padding-left:5px;
+	text-align:left;
+	height:2em;
+	font-weight:400;
+	opacity:.75;
 	}
 }
 
